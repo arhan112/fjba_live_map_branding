@@ -3214,11 +3214,11 @@ class FjBaLiveBrandingController(QObject):
         return False
 
     def cleanup(self):
-        try:
+        # Remove the event filter
+        if self.canvas is not None:
             self.canvas.removeEventFilter(self)
-        except Exception:
-            pass
 
+        # Clean up the overlay
         if self.overlay is not None:
             overlay = self.overlay
             self.overlay = None
