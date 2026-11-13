@@ -1,0 +1,13 @@
+
+[general]
+name=FjBa Live Map Branding
+qgisMinimumVersion=3.0
+description=Automatic FjBa logo and brand overlay on the QGIS map canvas.
+version=1.1.0
+author=FjBa
+email=
+about=FjBa Geospatial Automation & Intelligence - Live map canvas branding.
+category=Plugins
+icon=icon.png
+experimental=False
+deprecated=False
