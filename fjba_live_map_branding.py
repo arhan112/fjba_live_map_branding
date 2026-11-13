@@ -498,7 +498,7 @@ class AuroraVortexClock(QWidget):
         gradient.setColorAt(0.55, self.color("background_mid", 210))
         gradient.setColorAt(1.0, self.color("background_edge", 10))
 
-        painter.setPen(Qt.NoPen)
+        painter.setPen(Qt.PenStyle.NoPen)
         painter.setBrush(QBrush(gradient))
         painter.drawEllipse(QPointF(cx, cy), 86, 86)
 
@@ -533,7 +533,7 @@ class AuroraVortexClock(QWidget):
                 radius += pulse * 1.2
 
             painter.setPen(QPen(color, width))
-            painter.setBrush(Qt.NoBrush)
+            painter.setBrush(Qt.BrushStyle.NoBrush)
             painter.drawEllipse(QPointF(cx, cy), radius, radius)
 
         for index in range(3):
@@ -3196,7 +3196,7 @@ class FjBaLiveBrandingController(QObject):
             self.iface.mainWindow()
         )
 
-        if dialog.exec_() == QDialog.Accepted:
+        if dialog.exec() == QDialog.Accepted:
             self.settings.update(dialog.get_settings())
             self.settings["enabled"] = True
 
