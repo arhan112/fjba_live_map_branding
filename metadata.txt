@@ -1,13 +1,15 @@
 
 [general]
 name=FjBa Live Map Branding
-qgisMinimumVersion=3.0
-description=Automatic FjBa logo and brand overlay on the QGIS map canvas.
-version=1.1.0
+qgisMinimumVersion=3.28
+description=Animated FjBa branding overlay and Aurora Vortex clock for the QGIS map canvas.
+version=1.1.2
 author=FjBa
-email=
-about=FjBa Geospatial Automation & Intelligence - Live map canvas branding.
-category=Plugins
+email=fjoartbajraktari15@gmail.com
+about=FjBa geospatial branding overlay featuring an animated clock, configurable themes, logo support and movable map canvas panel.
+homepage=https://github.com/arhan112/fjba_live_map_branding
+repository=https://github.com/arhan112/fjba_live_map_branding
+tracker=https://github.com/arhan112/fjba_live_map_branding/issues
 icon=icon.png
 experimental=False
 deprecated=False
