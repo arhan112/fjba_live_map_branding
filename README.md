@@ -5,7 +5,9 @@
 ## Overview
 
 FjBa LIVE MAP BRANDING — AURORA VORTEX is a QGIS plugin designed to enhance the visual presentation of the QGIS workspace with an animated branding overlay and clock.
+## Plugin Preview
 
+![FjBa LIVE MAP BRANDING](images/plugin-preview.png)
 ## Features
 
 - Animated Aurora Vortex clock.
